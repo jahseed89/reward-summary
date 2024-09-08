@@ -14,6 +14,7 @@ const Header = () => {
       <div className="w-[80%] md:w-[40%] lg:w-[30%] flex justify-between lg:justify-end items-center">
         <Button
           disable={false}
+          type="submit"
           onClick={(e: unknown) => console.log("downloading", e)}
           additionalStyles="flex justify-between items-center bg-white-100 text-sm py-2 rounded w-[40%] mr-5 px-3 text-black shadow-cardShadow"
         >
@@ -25,6 +26,7 @@ const Header = () => {
         <Button
           onClick={(e: unknown) => console.log("creating", e)}
           disable={false}
+          type="submit"
           additionalStyles={`flex justify-around items-center text-sm text-white-100 !py-1 rounded w-[40%] px-3`}
         >
           <span className="text-xl">+</span>

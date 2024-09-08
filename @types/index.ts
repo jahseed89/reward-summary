@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 
 export interface ButtonProps {
+    type: string;
     children: ReactNode;
     disable: boolean;
     additionalStyles: string;
